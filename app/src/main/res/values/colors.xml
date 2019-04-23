@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#52A3E9</color>
+    <color name="colorPrimaryDark">#377EBD</color>
+    <color name="colorAccent">#00BCD4</color>
+
+
+    <color name="white">#FFF</color>
+
+
+    <!--Texts-->
+    <color name="title">#3F4A58</color>
+    <color name="subtitle_dark">#757E90</color>
+    <color name="subtitle_light">#A2AFC0</color>
+
+
+
+    <color name="detail_pink">#F52C82</color>
+    <color name="detail_blue">#58B2FE</color>
+
+</resources>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/oval_button_main_gradient_bg"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+
+                android:textSize="38dp"
+                android:text="Custom font"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:fontFamily="@font/my_nunito"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                android:textSize="26dp"
+                android:text="From the scratch + source code"
+                android:textColor="@color/white"
+                android:fontFamily="@font/my_nunito"
+                android:textStyle="italic"
+                />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="32dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+
+            android:src="@drawable/jon_rounded"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+
+            android:textSize="28dp"
+            android:text="Hi, devjdelasen"
+            android:textColor="@color/title"
+            android:fontFamily="@font/my_nunito"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginTop="12dp"
+        android:clipToPadding="false"
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_feature1"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_background_feature_1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:textSize="22dp"
+                android:text="Feature 1"
+                android:textColor="@color/white"
+                android:fontFamily="@font/my_nunito"
+                android:textStyle="bold"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_feature2"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_background_feature_2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:textSize="22dp"
+                android:text="Feature 2"
+                android:textColor="@color/white"
+                android:fontFamily="@font/my_nunito"
+                android:textStyle="bold"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:clipToPadding="false"
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_feature3"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_background_feature_3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:textSize="22dp"
+                android:text="Feature 3"
+                android:textColor="@color/white"
+                android:fontFamily="@font/my_nunito"
+                android:textStyle="bold"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_feature4"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_background_feature_4"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:textSize="22dp"
+                android:text="Feature 4"
+                android:textColor="@color/white"
+                android:fontFamily="@font/my_nunito"
+                android:textStyle="bold"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
